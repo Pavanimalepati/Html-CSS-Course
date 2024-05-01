@@ -1,0 +1,21 @@
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: none; */
+    visibility: hidden;
+    /* visibility is similar to display */
+}
+span{
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    /* display: block; */  
+    /* display: inline; */
+    /* display: none; */
+/* none means not display */
+}

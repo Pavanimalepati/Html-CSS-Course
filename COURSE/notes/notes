@@ -1,0 +1,267 @@
+         INTRODUCTION TO HTML AND CSS
+
+HTML:
+
+- Html stands for hyper text markup language.
+- HTML describes the structure of web page.
+- html consists of a series of elements.
+- latest version of html is HTML5.
+
+  1)HYPERLINKS:
+  The <a> tag defines a hyperlink,which is used to link from one page to another page.
+  The most important attribute of the <a> element is the 'href' attribute, which indicates the links destination.
+  eg:<a href="">something</a>
+
+  2)IMAGES:
+  The html <img> tag is used to embed an image in a web page.
+  The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+  <img> tag has two required attributes:
+
+- src-specifies the path to the image.
+- alt- specifies an alternate text for the image.
+  SYNTAX:
+  <img src="url" alt="alternate text">
+  eg:<img src="chania.jpg" alt="flowers in chania">
+
+  3)AUDIO:
+  The <audio> tag is used to embed sound content in a document, such as music or other audio streams.
+  The <audio> tag contains one or more <source> tags with different audio sources.the browser will choose the first source it supports.
+  There are three supported audio formates in HTML: MP3, WAV & OGG.
+  eg:
+  <audio controls autoplay muted loop >
+  <source src="/audios/El Billete - Edgar Lopez and Quincas Moreira (1).mp3" type="audio/mpeg">
+
+</audio>
+
+4)VIDEO:
+The html DOM defines methods,properties,and events for the <video> element.
+This allows you to load, play, and pause videos, as well as settings duration and volume.
+There are also DOM events that can notify you when a video begins to play, is paused etc.
+eg:<video src="salar trailer.htm" width="500px" controls autoplay muted loop>
+</video>
+
+5)FAVICONS:
+A favicon ia a small image displayed next to the page title in the browser tab.
+eg:<link rel="icon" type="image/jpg" href="peacock.jpg">
+
+6)TEXT FORMATTING:
+HTML contains several elements for defining text with a special meaning.
+<b>--bold text  
+<strong>--important text
+<i>-- italic text  
+<em>--emphasized text
+<mark>--marked text
+<small>--smaller text
+<del>--deleted text
+<ins>--inserted text
+<sub>--subscript text
+<sup>--superscript text
+
+7)SPAN&DIV:
+<span> inline container to group elements for styling purpose.it takes particular width.
+
+<div> block container to group elements for styling purpose.it takes entire width.
+
+8)LISTS:
+(1) un-orderd list: An unorderd list starts with the<ul>tag.Each list item starts with the<li>tag.
+The list items will be marked with bullets(small black circles) by default.
+eg:
+
+<ul>
+<li>coffee</li>
+<li>tea</li>
+<li>milk</li>
+</ul>
+(2) ordered list: An ordered list starts with the <ol>tag. Each list item starts with the <li>tag.
+The list items will be marked with numbers by default(1,2,3...).
+eg:
+<ol>
+<li>coffee</li>
+<li>tea</li>
+<li>milk</li>
+</ol>
+(3)Definition list:The <dl> tag defines description list.
+The <dl> tag is used in conjunction with<dt>(defines terms/names) and <dd>(describes each term/name)
+eg:
+<dl>
+<dt>coffee</dt>
+<dd>black hot drink</dd>
+<dt>milk</dt>
+<dd>white cold drink</dd>
+</dl>
+
+9)TABLES:
+HTML tables allow web developers to arrange data into rows and columns.
+A table in html consists of table cells inside rows and columns.
+Each table cell is defined by a <td> and a </td>tag.
+Everything between <td>and</td> are the content of the table cell.
+Each table row starts with a <tr> and ends with a</tr> tag.
+
+10)BUTTONS:
+The <button> tag defines a clickable button.
+Inside a <button> element you can put text(and tags like<i>,<b>,<strong>,<br>,<img>etc.).That is not possible with a button created with the <input> element.
+SYNTAX:
+<button type="button">click me</button>
+
+11)FORMS:
+An html form is used to collect user input.The user input is most often sent to a server for processing.
+The <form> element is a container for different types of input elements,such as:text fields,checkboxes,radio buttons,submit buttons etc.
+
+12)HEADERS&FOOTERS:
+Header and footer are both semantic tags.
+Headers are used for introducting content top of the page such as title ,sub-title,logo,navigation bar.
+
+Footers - is a container they conclude buttoum of the page such as author,copyright,contact information.
+
+INTRODUCTION TO CSS
+
+CSS:
+
+- css stands for cascading style sheets.
+- css describes how html elements are to be displayed on screen,paper pr in other media.
+- css saves a lot of work. it can control the layout of multiple web pages all at onces.
+- latest version of css is css3.
+
+  1)COLORS:
+  Colors are specified using predefined color names, (or) RGB,HEX,HSL,RGBA,HSLA values.
+
+  2)FONTS:
+  CSS fonts offer a range of options to style the text content within html elements. it gives you the ability to control different aspects of fonts,including font family,font size,font weight,font style, and more.
+
+  3)BORDERS:
+  The css border properties allow you to specify the style,width, and color of an element's border.
+  -dotted== defines a dotted border.
+  -dashed== defines a dashed border.
+  -solid== defines a solid border.
+  -double== defines a double border.
+  -groove== defines 3D grooved border.The effect depends on the border-color value.
+  -ridge==defines a 3D ridged border.The effect depends on the border-color value.
+  -inset== defines a 3D inset border.The effect depends on the border-color value.
+  -outset== defines a 3D outset border.The effect depends on the border-color value.
+  -none== defines no border.
+  -hidden== defines a hidden border.
+
+  4)SHADOWS:
+  It is used to add text and images in html documents.
+  .text-shadow== This property applies shadow to text.
+  .box-shadow== This property is used to aooly one or more shadows to an element.
+  5)MARGINS:
+  The css margin properties are used to create space around elements,outside of any defined borders.
+  There are properties for setting the margin for each side of an element(top,right,bottom,left).
+  6)FLOAT:
+  The float property specifies whether an element should float to the left,right, or not at all.
+  SYNTAX:
+  float:
+  none|left|right|initial|inherit;
+  eg:
+  img{
+  float:left;
+  }
+  7)OVERFLOW:
+  The css overflow property controls what happens to content that is too big to fit into an area.
+  The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+  The overflow property has the following values:
+  *visible-- Default. The overflow is not clipped,The content renders outside the element's box.
+  *hidden-- The overflow is clipped, and the rest of the content will be invisible.
+  *scroll-- The overflow is clipped, and a scrollbar is added to see the rest of content.
+  *auto-- similar to scroll, but it adds scrollbars only when necessary.
+
+  8)DISPLAY PROPERTY:
+  display ==property specifies if/how an element is displayed.
+
+block-level == start on new line, take up the full width available(h1,div,p,form,header,footer)
+
+inline == do not start on a new line,width is limited to what is needed(span,a,img)
+
+9)HEIGHT AND WIDTH:
+The height and width properties are used to set the height and width of an element.
+The height and width properties do not include padding,borders or margins.It sets the height/width of the area inside the padding, border, and margin of the element.
+
+- auto--This id default.The browser calculates the height and width.
+- length--Defines the height/width in px,cm etc.
+- %--Defines the height/width in percent of the containing block.
+- initial--sets the height/width to its default value.
+  inherit--The height/width will be inherited from its parent value.
+
+  10)POSITIONS:
+  The position property specifies the type of positioning method used for an element.
+
+- relative = positioned relative to where it normally is.
+- fixed = positioned relative to the viewport.
+- absolute = positioned relative to nearest ancestor.
+- sticky = positioned based on scroll position.
+- static = default position for an element.
+
+  11)BACKGROUND IMAGES:
+  The background-image property specifies an image to use as the background of an elent.
+  By default, the image is repeated so it covers the entire element.
+
+  12)COMBINATORS:
+  combinators== explains the relationship between listed selectors.
+  | descendant
+
+  > child
+  > ~ general sibling
+
+* adjacent sibling
+
+  13)PSEUDO-CLASSES:
+  A pseudo-class is used to define a special state of an element.
+
+- Style an element when a user mouses over it.
+- Style visited and unvisited links differently.
+- Style an element when it gets focus.
+  SYNTAX:
+  selector:pseudo-class{
+  property:value;
+  }
+
+  14)PSEUDO-ELEMENTS:
+  pseudo-element == keyword added after a selector thats used to style a specific parts of an element.
+
+selector:: pseudo-element
+h1:: first-letter{
+}
+
+A CSS pseudo-element is used to style specified parts of an element.
+
+- Style the first letter, or line, of an element.
+- Insert content before, or after, the content of an element.
+  SYNTAX:
+  selector:pseudo-element{
+  property:value;
+  }
+
+  15)PAGINATION:
+  pagination== method by which a document is separated into pages,and numbers are given.
+  If you have a website with lots of pages, you may wish to add some sort of pagination to each page:
+  << 1 2 3 4 5 6>>
+
+  16)DROPDOWN MENUS:
+  Create a dropdown box that appears when the user moves the mouse over an element.
+
+  17)NAVIGATION BAR:
+
+  18)WEBSITE LAYOUT:
+  semantic rags == keep your content organized better for SEO assists screen readers and other tech for accessibility.
+
+header> = introductory content[title,logo,author information]
+nav> = navigation bar,links
+main> = main content(section,aside,article,div)
+section> =dependent content
+aside> = side content
+article> = independent content
+footer> = closing content
+
+19)IMAGE GALLERY:
+Image gallery is used to store and display a collection of pictures.
+
+20)ICONS:
+Icons can easily be added to your HTML Page, by using an icon library.such as Font awesome.
+
+21)FLEXBOX:
+
+22)TRANSFORMATION:
+Transformation == css property lets you rotate,scale,skew, or translate an element
+
+23)ANIMATIONS:

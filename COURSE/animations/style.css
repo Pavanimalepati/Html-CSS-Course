@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    /* animation-name: slideLeft; */
+    /* animation-name: slideRight; */
+    /* animation-name: slideUp; */
+    /* animation-name: slideDown; */
+    /* animation-name: rotate; */
+    /* animation-name: grow; */
+    /* animation-name: shrink; */
+    /* animation-name: fade; */
+    /* animation-name: fadeIn; */
+    /* animation-name: colorChange; */
+    /* animation-name: glow; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: normal; */
+    /* (animation-direction: ;reverse,alternate,alternate-reverse,normal) */
+    /* animation-play-state: paused; */
+    /* (animation-play-state:running,paused */
+    /* animation-timing-function: ease-in-out; */
+    /* (animation-timing-function:ease-in-out,linear,steps(5) */
+    /* animation-duration: 2s; */
+    /* opacity: 0; */
+}
+img{
+    animation-name: sideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    -o-animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+/* #box:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+/* box:active{
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+@keyframes slideLeft{
+    from{transform: translateX(300%)}
+}
+@keyframes slideRight {
+    to {transform: translateX(300%)
+    }
+    
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(300%)
+    }
+}
+@keyframes slideDown {
+    to{
+        transform: translateY(300%)
+    }
+}
+@keyframes rotate{
+    50%{transform: rotateZ(360de)}
+}
+@keyframes grow{
+    100%{transform: scale(2,2)}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5,0.5)}
+}
+@keyframes fade{
+    50%{opacity: 0}
+}
+/* @keyframes fadeIn {
+    100% {
+        opacity: 1
+    }
+} */
+@keyframes colorChange{
+    0%{background-color: hsl(0, 100%, 50%)}
+    20%{background-color: hsl(39, 100%, 50%)}
+    40%{background-color: hsl(60, 100%, 50%)}
+    60%{background-color: hsl(120, 100%, 25%)}
+    80%{background-color: hsl(240, 100%, 50%)}
+    100%{background-color: hsl(300, 100%, 25%);}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow}
+}

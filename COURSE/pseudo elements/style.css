@@ -1,0 +1,30 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    color: white;
+    background-color: purple;
+}
+/* #fruit li::before{
+    content: "✔" ;
+} */
+#apple::after{
+    content:"🍎";
+}
+#grapes::after {
+    content: "🍇";
+}
+#orange::after {
+    content: "🍊";
+}
+/* in un ordered list by default it is bullet point.
+lets change that .. we can delete or comment "before" */
+#fruit li::marker{
+    content: "✔";
+    color: green;
+    font-size: 1.2em;
+}

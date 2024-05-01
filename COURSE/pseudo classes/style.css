@@ -1,0 +1,50 @@
+/* a:link{
+    color: hsl(221,100%, 74%);
+}
+a:hover{
+    color: hsl(221, 100%, 86%);
+    font-size: 1.1em;
+}
+a:active{
+    color: blue;
+    font-size: 1.1rem;
+}
+a:visited{
+    color: grey;
+} */
+
+/* li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: gray;
+} */
+
+/* nth child pseudo class. 
+enter like 1,2, odd,even,2n,3n,3n+1 etc..*/
+/* li:nth-child(1){
+background-color: yellow;
+} */
+
+ /* p{
+    background-color: blue;
+    padding: 10px;
+    display: none;
+}  */
+.greeting p{
+    background-color: blue;
+    padding: 25px;
+    display: none;
+} 
+.greeting:hover p{
+    display: block;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+#container{
+    border: 2px solid;
+}
+/* this is | descendant just an empty space */
+/* #container p{
+    background-color: yellow;
+} */
+/* > child is an right angular bracket 
+onlt highlight 1,2 beacuse 3 is child */
+/* #container >p{
+    background-color: yellow;
+} */
+
+/* ~general sibling */
+/* #container ~ p {
+    background-color: yellow;
+} */
+/*  + adjacent sibling is next sibling  not all siblings*/
+#container + p {
+    background-color: yellow;
+}

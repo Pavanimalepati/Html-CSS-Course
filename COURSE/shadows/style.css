@@ -1,0 +1,15 @@
+ /* eg:(2px 1px---right,down) 
+ first one-horizontal upset
+ second one-vertical upset
+ third one is bluee(it decrease shadow color)*/
+
+h1{
+    text-shadow: 2px 3px 5px red, -2px -3px 5px skyblue;  
+    
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(234, 234, 234);
+    box-shadow: 3px 3px 5px;
+}

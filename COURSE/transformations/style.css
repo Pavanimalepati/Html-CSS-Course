@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+/* #box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: aqua; */
+
+    /* transform: translateX(50px); */
+/*translateX== translate into x-axis,negative translate into left.
+translateY== translate into y-axis ,el
+lement translate into down */
+/* transform: translateY(50px); */
+/* transform: translate(50px,50px); */
+/* transform: rotateX(180deg); */
+/* transform: rotateY(135deg); */
+/* transform: rotateZ(135deg); */
+/* transform: scaleX(2); */
+/* transform: scaleY(2); */
+/* transform: scale(2,2); */
+/* transform: skewX(45deg); */
+/* transform: skewY(55deg); */
+/* transform: skew(50,50); */
+/* WE CAN APPLY MORE THAN ONE TRANSFORMATION AT A TIME */
+/* transform: translateX(100%) rotateZ(90deg) scale(0.5); */
+/* } */
+/* .box {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+}
+#box1{
+    background-color: aqua;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color:greenyellow;
+} */
+
+img{
+    transform: translateX(100%) rotateZ(180deg) scaleX(2);
+}

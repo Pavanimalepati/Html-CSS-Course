@@ -1,0 +1,20 @@
+/* margin-top-- top empty space margin,
+bottom-down,left-left side of box ,right-right side of box.*/
+body{
+    margin: 0px;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    height: 250px;
+    margin: 50px;
+}
+#box1{
+    background-color: red;
+    margin-top: 50px;
+    /* margin-left: auto; */
+}
+#box2{
+    background-color: skyblue;
+}

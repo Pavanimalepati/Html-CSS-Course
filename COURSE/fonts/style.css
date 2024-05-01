@@ -1,0 +1,14 @@
+/* fonts.google.com */
+@font-face{
+    src:url(Roboto/Roboto-Black.ttf);
+    font-family: Roboto-Black;
+}
+h1{
+    font-family: Roboto-Black, Verdana, arial;
+}
+p{
+    font-family:  "open sans", "lucida console", "courier new";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}

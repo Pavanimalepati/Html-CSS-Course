@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* MAIN AXIS[left to right. justify-content==flex-start,flex-end,center, space-around,space-evenly*/
+    /* align-items: baseline; */
+    /*CROSS AXIS[up and down]. align-items== flex-start,flex-end,center,baseline */
+    flex-wrap: wrap;
+    /* flex-wrap==wrap,no-wrap ,wrap-reverse*/
+    align-content: space-start;
+    /* align-content== flex-start,flex-end,center ,space-evenly,space-between*/
+    column-gap: 2em;
+    row-gap: 2em;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 5em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: red;
+    /* align-self: end; */
+    /* align-self== center,end,start */
+    order: 1;
+    /* -1,1,2etc */
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: blueviolet;
+}
